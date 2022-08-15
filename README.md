@@ -12,10 +12,10 @@
 * 注意：该文件夹所在路径不要包含中文
 * 需要修改程序的配置文件user_info.json：
  
-	> wlt_user: 网络通账号
-	> wlt_pwd:  网络通密码
-	> "0": ["BA20007024" ,"passwd", "user_name"],    健康打卡系统账户密码
-	> "1": ["BA20007024" ,"passwd", "user_name"]     可以追加，替别人打卡
+	1） wlt_user: 网络通账号
+	2） wlt_pwd:  网络通密码
+	3） "0": ["BA20007024" ,"passwd", "user_name"],    健康打卡系统账户密码
+	4） "1": ["BA20007024" ,"passwd", "user_name"]     可以追加，替别人打卡
 * 脚本执行时间默认早上8点10，可以在USTC_health_daka.bat中修改
 	第30行： set set_time=08:10
 
